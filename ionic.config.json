@@ -1,0 +1,7 @@
+{
+  "name": "ecurie-de-persevere-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
