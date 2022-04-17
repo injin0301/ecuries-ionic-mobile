@@ -25,3 +25,88 @@
 #container a {
   text-decoration: none;
 }
+
+.backgroud {
+  background-image: url("../../assets/images/entrance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+#logoImg {
+  display: block;
+  margin: auto;
+  width: 200px;
+  padding-top: 50px;
+}
+
+#home-title {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.wood-img {
+  background-image: url("../../assets/images/wood.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.wood-img h2, .wood-img p {
+  margin: 0;
+}
+
+.wood-img h2 {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.wood-img p {
+  color: #fff;
+  text-align: center;
+}
+
+.phrase {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(51, 21, 21, 0.71);
+  line-height: 30px;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.video {
+  background-color: #000;
+}
+
+iframe {
+display: block;
+margin: auto;
+width: 80%;
+height: 380px;
+border: none;
+}

@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Equipe</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="equipe-container">
+    <div class="karine-cv">
+        <img id="karine" src="../../../assets/images/karine_cheval.jpg" alt="">
+        <div class="info">
+            <h3>Karine MASSOT</h3>
+            <p>Auprès  des chevaux depuis sa naissance, Karine a grandi dans les troupeaux de poneys et chevaux de l’élevage familial.</p>
+            <p>En selle depuis ses 3 ans, Karine a reçu une formation complète auprès de nombreux cavaliers de haut niveau : Pascale Massot-Dandoy, Philippe Limousin, Alain Franckville, Serge Balbin, Patrick Le Rolland, Wilfried Pierrot.</p>
+            <p>Elle évoluera en compétition de dressage jusqu’à intégrer l’équipe de France de dressage espoir de l’âge de 14 à 18 ans.</p>
+            <p>Chaque formation, initiation est toujours suivie de recherches personnelles.</p>
+        </div>
+    </div>
+
+    
+    <iframe src="https://www.youtube.com/embed/xl9Yt_wpBtc?wmode=transparent&autoplay=0&mute=0&theme=dark&controls=1&autohide=1&loop=0&showinfo=0&rel=0&enablejsapi=0" 
+            title="Ecuries de persevere"></iframe>
+   
+
+    <div class="les-autres" *ngFor="let worker of workers;">
+        <div class="displayflex">
+            <img src="{{worker.image}}" alt="">
+            <div class="infos">
+                <p>{{worker.name}}</p>
+                <p>{{worker.position}}</p>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</ion-content>

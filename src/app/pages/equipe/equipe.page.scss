@@ -1,0 +1,77 @@
+.equipe-container {
+    width: 100%;
+    background-image: url("../../../assets/images/wood.jpg");
+    background-repeat: repeat;
+}
+
+.karine-cv {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#karine {
+    display: block;
+    height: 200px;
+}
+
+.info h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.info {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    border: none;
+}
+
+.les-autres img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+}
+
+.les-autres {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgba(54, 45, 29,1);
+
+    border: 2px solid #000;
+}
+
+.displayflex {
+    display: flex;
+}
+
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 12px;
+}
