@@ -35,6 +35,14 @@ const routes: Routes = [
     path: 'enseignement',
     loadChildren: () => import('./pages/enseignement/enseignement.module').then( m => m.EnseignementPageModule)
   },
+  {
+    path: 'formulesettarifs',
+    loadChildren: () => import('./pages/formules-tarifs/formules-tarifs-body/formules-tarifs-body.module').then( m => m.FormulesTarifsBodyPageModule)
+  },
+  {
+    path: 'stages',
+    loadChildren: () => import('./pages/stages/stages/stages.module').then( m => m.StagesPageModule)
+  },
 ];
 
 @NgModule({

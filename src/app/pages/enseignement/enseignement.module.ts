@@ -8,12 +8,15 @@ import { EnseignementPageRoutingModule } from './enseignement-routing.module';
 
 import { EnseignementPage } from './enseignement.page';
 
+import { FooterModule } from 'src/app/components/footer/footer.modules';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    EnseignementPageRoutingModule
+    EnseignementPageRoutingModule,
+    FooterModule
   ],
   declarations: [EnseignementPage]
 })
