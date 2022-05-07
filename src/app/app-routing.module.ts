@@ -43,6 +43,14 @@ const routes: Routes = [
     path: 'stages',
     loadChildren: () => import('./pages/stages/stages/stages.module').then( m => m.StagesPageModule)
   },
+  {
+    path: 'rdv',
+    loadChildren: () => import('./pages/rdv/rdv.module').then( m => m.RdvPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
+  }
 ];
 
 @NgModule({

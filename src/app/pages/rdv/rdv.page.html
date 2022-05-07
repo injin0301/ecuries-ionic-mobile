@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>RDV</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="background">
+
+        <div class="rdv">
+            <h1>Reservation</h1>
+        
+            <label for="appt">Choisissez la date :</label>
+
+            <input type="date" name="dateofbirth" id="dateofbirth">
+
+            <label for="appt">Choisissez l'heure :</label>
+
+            <input type="time" id="appt" name="appt"
+                min="09:00" max="18:00" required>
+
+            <label for="">Vous avez choisi comme ci-dessous :</label>
+
+            <p>10 Juin 11:00</p>
+
+
+            <button id="reserverbtn">Reserver</button>
+        </div>
+        
+    </div>
+</ion-content>
