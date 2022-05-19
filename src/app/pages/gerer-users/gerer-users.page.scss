@@ -1,0 +1,38 @@
+.scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th {
+    padding: 8px 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 8px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: lightgreen;
+}
+
+#modify {
+    background-color: blue;
+    color: #fff;
+    padding: 6px 6px;
+    margin-right: 5px;
+}
+
+#delete {
+    background-color: red;
+    color: #fff;
+    padding: 6px 6px;
+}
